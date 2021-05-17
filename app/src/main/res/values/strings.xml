@@ -13,4 +13,10 @@
     <string name="login_failed">"Login failed"</string>
     <string name="search_by_roll_number">Search By Roll Number</string>
     <string name="search_by_component">Search By Component</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_roll_number">Enter Your Roll Number</string>
+    <string name="search">Search</string>
+    <string name="no_records_found">No Records Found!!!</string>
+    <string name="mahesh_stores">Mahesh Stores</string>
 </resources>
