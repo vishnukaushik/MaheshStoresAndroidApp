@@ -19,4 +19,7 @@
     <string name="search">Search</string>
     <string name="no_records_found">No Records Found!!!</string>
     <string name="mahesh_stores">Mahesh Stores</string>
+    <string name="no_component_found">No component found!!!</string>
+    <string name="book_component">Book Component</string>
+    <string name="refresh">Refresh</string>
 </resources>
