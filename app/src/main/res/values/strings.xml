@@ -22,4 +22,13 @@
     <string name="no_component_found">No component found!!!</string>
     <string name="book_component">Book Component</string>
     <string name="refresh">Refresh</string>
+    <string name="choose_category">Choose a Category</string>
+    <string name="component_id">Component ID</string>
+    <string name="date_of_issue">Date of Issue</string>
+    <string name="date_of_return">Date of return</string>
+    <string name="student_id">Student ID</string>
+    <string name="user_id">User Id</string>
+    <string name="login">Login</string>
+    <string name="transaction_id">Transaction ID</string>
+    <string name="count_of_components_available_availablecount">count of components available: $availableCount</string>
 </resources>

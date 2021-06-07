@@ -4,6 +4,8 @@
     package="com.example.maheshstores">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,9 +15,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaheshStores"
         tools:targetApi="n">
-        <activity android:name=".AdminLoginActivity" />
-        <activity android:name=".NonAdminLoginActivity" />
-        <activity android:name=".FirstPageActivity">
+        <activity android:name=".admin.AdminActivity"></activity>
+        <activity
+            android:name=".admin.AdminLoginActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".guest.NonAdminLoginActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".FirstPageActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,7 +35,5 @@
             </intent-filter>
         </activity>
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
