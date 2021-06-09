@@ -34,4 +34,18 @@
     <string name="return_date">Return Date</string>
     <string name="lending_component">Lending Component</string>
     <string name="add">Add</string>
+    <string name="receiving_component">Receiving Component</string>
+    <string name="submit">submit</string>
+    <string name="close">close</string>
+    <string name="updating_return_date">Updating Return Date</string>
+    <string name="update">update</string>
+    <string name="add_component_to_inventory">Add Component to Inventory</string>
+    <string name="category_id">Category ID</string>
+    <string name="delete_component_from_inventory">Delete Component from Inventory</string>
+    <string name="delete">delete</string>
+    <string name="add_new_category_of_components">Add new Category of Components</string>
+    <string name="category_name">Category Name</string>
+    <string name="user_activity">User Activity</string>
+    <string name="store_activity">Store Activity</string>
+    <string name="guest">Guest</string>
 </resources>

@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaheshStores"
         tools:targetApi="n">
-        <activity android:name=".admin.AdminActivity"></activity>
+        <activity android:name=".admin.AdminActivity" android:exported="true"/>
         <activity
             android:name=".admin.AdminLoginActivity"
             android:screenOrientation="portrait"
